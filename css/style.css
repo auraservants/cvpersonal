@@ -1,17 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,400&display=swap');
 
+/* BODY */
+
 body{
     font-family: 'Open Sans', sans-serif;
     margin:0;
     padding:0;
     box-sizing:border-box;
-
 }
 
-main{
-    max-width: 1041px;
-    margin: 50px auto; 
-}
+/* HEADER */
 
 header{
     background-color: #ffffff;
@@ -20,8 +18,7 @@ header{
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    padding: 15px;
-    
+    padding: 15px;   
 }
 
 header img{
@@ -29,6 +26,13 @@ header img{
     margin-left: auto;
     margin-right: auto;
     padding-top: 21px;
+}
+
+/* MAIN */
+
+main{
+    max-width: 1041px;
+    margin: 50px auto; 
 }
 
 h1{
@@ -58,16 +62,14 @@ nav a{
     text-decoration: none;
     color: #ffffff;
     font-size: 15px;
-    padding: 10px;
-    
+    padding: 10px;    
 }
 
 nav li{
     display: inline-block;
     padding-bottom: 15px;
     padding-right: 5px;
-    font-size: 20px;
-   
+    font-size: 20px; 
 }
 
 nav li:hover{
@@ -90,7 +92,6 @@ span.datos-personales{
     font-style: italic;
 }
 
-
 .lista-formacion-academica, .lista-experiencia-laboral{
     list-style-type: none;
 }
@@ -99,12 +100,19 @@ span.formacion-academica, .experiencia-laboral{
     font-weight: 700;
 }
 
+
+/* FOOTER */
+
+main{
+    max-width: 1041px;
+    margin: 50px auto; 
+}
+
 footer{
     background-color: #000000;
     padding: 30px;
     text-align: center;
 }
-
 
 span.text-footer{
     color: #ffffff;
